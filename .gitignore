@@ -1,0 +1,6 @@
+# Ignore .DS_Stores files
+.DS_Store
+.prettierignore
+
+# Ignore .mp4 files
+.mp4
