@@ -2,5 +2,8 @@
 .DS_Store
 .prettierignore
 
-# Ignore .mp4 files
-.mp4
+# Ignore all .mp4 files
+*.mp4
+
+# Ignore all .mov files
+*.mov
