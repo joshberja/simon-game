@@ -29,6 +29,7 @@ Simon Game. Try your best to match the sequence.
 - HTML
 - CSS
 - JavaScript
+- jQuery
 
 ## Author
 
