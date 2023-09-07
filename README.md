@@ -7,12 +7,11 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
 
-Simon Game. Try you best to match the sequence.
+Simon Game. Try your best to match the sequence.
 
 ### Demo
 
