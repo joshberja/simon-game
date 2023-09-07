@@ -20,6 +20,16 @@ h1 {
   line-height: 1.25;
 }
 
+.startGameBtn {
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: grey;
+}
+
 .btn {
   margin: 25px;
   display: inline-block;
@@ -53,4 +63,9 @@ h1 {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+footer {
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
 }

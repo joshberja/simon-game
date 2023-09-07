@@ -57,13 +57,23 @@ function gameToggle() { // Function to toggle the game on or off
 
 function startGame() { // Function to start the game
     $("h1").text("Level " + level); // Update the h1 HTML element tag to show the level the user is on
+    hideStartBtn();
     nextSequence();
     gameToggle();
 };
 
-$(document).keypress(function (event) { // Detect when the user presses 'Enter' keyboard key then starts the game 
-  if (event.which === 13 && started === false) {
-    startGame(); // Call the startGame function to start the game
+function hideStartBtn() { // Function to hide the start game button
+  $(".startGameBtn").css("display", "none");
+}
+
+function showStartBtn() { // Function to show the start game button
+  $(".startGameBtn").text("Restart");
+  $(".startGameBtn").css("display", "inline-block");
+}
+
+$(".startGameBtn").click(function (event) { // Detect when the user clicks the start or restart button 
+  if (started === false) {
+    startGame();
   }
 });
 
@@ -82,8 +92,9 @@ function checkAnswer(currentLevel) { // Function to check the user's last clicke
     setTimeout(() => { // Wait a very brief moment before removing the game over effect
       $("body").removeClass("game-over");
     }, 200);
-    $("h1").text("Game Over. Press Enter to Restart"); // Update the title to say show game over message with instruction to restart game
+    $("h1").text("Game Over!"); // Update the title to say show game over message
     startOver(); // Call startOver() function to reset game settings
+    showStartBtn();
   }
 }
 
