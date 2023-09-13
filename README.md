@@ -22,7 +22,7 @@ Simon Game. Try your best to match the sequence.
 - Live Site URL: [Simon Game](https://joshberja.github.io/simon-game/)
 - YouTube Video Demos:
   - [Simon Game v1.0](https://youtu.be/6B7sVNnFwDE)
-  - [Simon Game v2.0 - Latest](https://youtu.be/arIkGBC3p94)
+  - [Simon Game v1.1 - Latest](https://youtu.be/arIkGBC3p94)
 
 ## My process
 
